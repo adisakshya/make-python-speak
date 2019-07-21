@@ -1,6 +1,7 @@
 # import required modules
 import random
 import time
+import pyfiglet
 import pyttsx3
 import speech_recognition as sr
 
@@ -93,6 +94,9 @@ class SpeechEngine(object):
 # Class - Game Engine
 class GameEngine(object):
 
+    def __str__(self):
+        return 'Guess The Word !'
+    
     # init
     def __init__(self):
 
@@ -100,7 +104,7 @@ class GameEngine(object):
         self.number_of_guesses = 3
         self.prompt_limit = 5
         self.game_speech_engine = SpeechEngine()
-        self.word = random.choice(self.words)
+        self.word = self.words[2]#random.choice(self.words)
 
     # greet user
     def greet(self):
@@ -172,7 +176,7 @@ class GameEngine(object):
             # if no attempts left, the user loses the game
             if guess_is_correct:
                 win = "Correct! You win!"
-                print(win)
+                print(pyfiglet.figlet_format(win))
                 self.game_speech_engine.speak(win)
                 break
             elif user_has_more_attempts:
@@ -195,7 +199,9 @@ def main():
 
     # initialize game engine
     obj = GameEngine()
-
+    head = pyfiglet.figlet_format(str(obj))
+    print(head)
+    
     # greet the user
     obj.greet()
 
