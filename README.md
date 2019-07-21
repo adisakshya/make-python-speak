@@ -2,6 +2,29 @@
 
 This repo illustrates use of the Speech-To-Text and Text-to-Speech Engine using a simple 'Guess the Word Game'
 
+### Setting up environment and installing dependencies
+
+Run the following command to create a virtual-environment:
+```
+$ virtualenv venv
+$ source venv/Scripts/activate
+```
+
+Before moving on you need to install the modules required to run the scripts: (Make sure you have python3 installed)
+
+Run the following command:
+```
+$ pip install -r requirements.txt
+```
+This will install 2 of 3 required modules
+Now to install 3rd module PyAudio
+- Download it's wheel from this [link](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio)
+- Extract the zip file and run following command in the folder
+```
+$ pip install <file-name>
+```
+- If using python3.7 then you can use the file in PyAudio_wheel-python3.7 folder
+
 # Speech-To-Text
 
 The overwhelming success of speech-enabled products like Amazon Alexa has proven that some degree of speech support will be an essential aspect of household tech for the foreseeable future. If you think about it, the reasons why are pretty obvious.
