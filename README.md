@@ -25,6 +25,24 @@ $ pip install <file-name>
 ```
 - If using python3.7 then you can use the file in PyAudio_wheel-python3.7 folder
 
+
+# The Game - Guess The Word !
+
+![Title](https://github.com/adisakshya/make-python-speak/blob/master/screenshots/1.PNG?raw=true)
+
+You can start the game by running the following command:
+```
+py game.py
+```
+This game consists of two components:
+- Speech Engine, that handles all the speech input from the user and also converts the text output to speech making the game a lot more iteractive
+- Game Engine, that handles all the game related stuff like starting the game, linking with speech engine and handling play
+
+```
+Spend some time playing the game, you will be guided by the bot !
+after some fun time you can continue reading below about how the Speech Engine actually work
+```
+
 # Speech Recognition (Speech-To-Text)
 
 The overwhelming success of speech-enabled products like Amazon Alexa has proven that some degree of speech support will be an essential aspect of household tech for the foreseeable future. If you think about it, the reasons why are pretty obvious.
