@@ -62,7 +62,7 @@ This prevents the recognizer from wasting time analyzing unnecessary parts of th
 
 ### Picking a Speech Recognition Package
 
-There is one package that stands out in terms of ease-of-use: SpeechRecognition.
+There is one package that stands out in terms of ease-of-use: [SpeechRecognition](https://github.com/Uberi/speech_recognition)
 
 The SpeechRecognition library acts as a wrapper for several popular speech APIs and is thus extremely flexible. One of these—the Google Web Speech API—supports a default API key that is hard-coded into the SpeechRecognition library. That means you can get off your feet without having to sign up for a service.
 
