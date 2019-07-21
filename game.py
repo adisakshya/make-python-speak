@@ -104,7 +104,7 @@ class GameEngine(object):
         self.number_of_guesses = 3
         self.prompt_limit = 5
         self.game_speech_engine = SpeechEngine()
-        self.word = self.words[2]#random.choice(self.words)
+        self.word = random.choice(self.words)
 
     # greet user
     def greet(self):
