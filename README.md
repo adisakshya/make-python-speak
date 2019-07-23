@@ -94,6 +94,7 @@ Speech synthesis is the artificial production of human speech. A text-to-speech 
 An intelligible text-to-speech program allows people with visual impairments or reading disabilities to listen to written words on a home computer. The quality of a speech synthesizer is judged by its similarity to the human voice and by its ability to be understood clearly.
 
 ![WikiPedia](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/TTS_System.svg/825px-TTS_System.svg.png)
+
 Image Source: WikiPedia
 
 A text-to-speech system (or "engine") is composed of two parts:
